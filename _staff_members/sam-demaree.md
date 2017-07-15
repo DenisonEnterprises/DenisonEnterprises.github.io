@@ -1,7 +1,7 @@
 ---
 name: Sam Demaree
 image: "/uploads/people/sam-demaree.jpg"
-title: ???
+title: Finance
 class: 2018
 ---
 

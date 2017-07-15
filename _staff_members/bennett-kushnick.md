@@ -1,7 +1,7 @@
 ---
 name: Bennett Kushnick
 image: "/uploads/people/bennett-kushnick.jpg"
-title: ???
+title: Human Resources
 class: 2018
 ---
 

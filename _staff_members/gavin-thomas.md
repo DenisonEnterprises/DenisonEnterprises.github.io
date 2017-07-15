@@ -1,7 +1,7 @@
 ---
 name: Gavin Thomas
 image: "/uploads/people/gavin-thomas.jpg"
-title: ???
+title: Innovation
 class: 2020
 ---
 

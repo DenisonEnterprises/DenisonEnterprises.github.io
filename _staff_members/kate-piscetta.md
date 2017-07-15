@@ -1,7 +1,7 @@
 ---
 name: Kate Piscetta
 image: "/uploads/people/kate-piscetta.jpg"
-title: ???
+title: Marketing
 class: 2019
 ---
 

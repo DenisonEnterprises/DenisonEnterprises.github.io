@@ -1,7 +1,7 @@
 ---
 name: Caileigh Marshall
 image: "/uploads/people/caileigh-marshall.jpg"
-title: ???
+title: Development
 class: 2019
 ---
 

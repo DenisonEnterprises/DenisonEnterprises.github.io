@@ -1,7 +1,7 @@
 ---
 name: Bobby Craig
 image: "/uploads/people/bobby-craig.jpg"
-title: ???
+title: Development
 class: 2018
 ---
 
