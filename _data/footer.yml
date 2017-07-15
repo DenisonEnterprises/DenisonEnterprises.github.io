@@ -1,0 +1,26 @@
+- title: Explore
+  links:
+    - name: Home
+      link: /
+    - name: About
+      link: /about/
+    - name: Projects
+      link: /projects/
+    - name: Consulting
+      link: /consulting/
+    - name: Blog
+      link: /blog/
+- title: Social
+  links:
+    - name: Facebook
+      link: "https://www.facebook.com/Denison-Enterprises-735878449838038/"
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: "https://twitter.com/DUenterprises"
+      social_icon: Twitter
+      new_window: true
+    - name: LinkedIn
+      link: "https://linkedin.com/company/denisonenterprises"
+      social_icon: LinkedIn
+      new_window: true

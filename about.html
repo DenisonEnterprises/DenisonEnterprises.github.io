@@ -1,0 +1,56 @@
+---
+title: About
+call_to_action: Contact
+background_image_path:
+large_header: false
+show_in_navigation: true
+navigation_order: 1
+---
+
+<div class="editable">
+	<p>Denison Enterprises was founded in 2014 by several students who thought campus was missing an opportunity for new ideas to come to fruition and entrepreneurial spirit to thrive. Since then the team has accomplished a great deal.</p>
+
+	<p>Denison Enterprises has compiled a competitive team of go-getters who are taking Denison by storm.</p>
+
+	<div style="text-align: center;">
+		<iframe src="https://www.youtube.com/embed/oG528GbLXT4" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<h2>Denison Enterprises In The News</h2>
+
+	<div class="fifths">
+		<div class="one-fifth">
+			<a href="https://news.denison.edu/2015/05/start-them-up-2/"><img src="/uploads/news/1.png" alt=""></a>
+		</div>
+		<div class="one-fifth">
+			<a href="http://news.denison.edu/"><img src="/uploads/news/2.png" alt=""></a>
+		</div>
+		<div class="one-fifth">
+			<a href="http://www.denisonian.com/2014/11/news/important-roost-renovation-nears-completion/"><img src="/uploads/news/3.png" alt=""></a>
+		</div>
+		<div class="one-fifth">
+			<a href="http://www.denisonian.com/2014/11/news/a-little-more-convenience-a-bandersnatch-app/"><img src="/uploads/news/4.png" alt=""></a>
+		</div>
+		<div class="one-fifth">
+			<a href="http://www.denisonian.com/2014/04/news/a-student-group-with-a-business-focus/"><img src="/uploads/news/5.png" alt=""></a>
+		</div>
+	</div>
+
+	<h2>Meet The Team</h2>
+	<br>
+</div>
+
+<ul class="staff-list">
+	{% for member in site.staff_members %}
+		<li class="staff">
+			<div class="staff-image">
+				<img src="{{ member.image }}" alt="Photo of {{ member.name }}">
+			</div>
+			<div class="staff-content">
+				<span class="member-name">{{ member.name }}</span>
+				<span class="member-title">{{ member.title }}</span>
+			</div>
+			<span class="member-class">{{ member.class }}</span>
+		</li>
+	{% endfor %}
+</ul>
