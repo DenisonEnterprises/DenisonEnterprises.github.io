@@ -23,6 +23,11 @@ social:
 # -----
 # Build
 
+external_nav_links:
+    -
+        link: "https://denison-enterprises.myshopify.com/"
+        text: "Shop"
+
 paginate: 10
 paginate_path: "/blog/:num/"
 
@@ -65,7 +70,6 @@ exclude:
 
 call_to_actions:
   - Contact
-  - Blog
   - Map
 
 social_icons:
