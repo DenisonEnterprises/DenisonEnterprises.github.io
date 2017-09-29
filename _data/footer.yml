@@ -8,8 +8,8 @@
       link: /projects/
     - name: Consulting
       link: /consulting/
-    - name: Blog
-      link: /blog/
+    - name: Shop
+      link: "https://denison-enterprises.myshopify.com/"
 - title: Social
   links:
     - name: Facebook

@@ -10,13 +10,22 @@ navigation_order: 2
 <div class="editable">
 	<p>Our specialised team has done work in many different fields. We've consulted and started businesses from the ground up. Our portfolio is very diverse and we're always looking for new opportunities to get involved in projects in our community.</p>
 
-	<h3>Bandersnatch</h3>
-	<p><img src="/uploads/projects/bandersnatch.png" alt="Bandersnatch Logo"></p>
+	<nav class="accordion arrows">
+		{% for project in site.projects %}
+		<input type="radio" name="accordion" id="{{ project.slug }}" />
+		<section class="box">
+			<label class="box-title" for="{{ project.slug }}">{{ project.name }}</label>
+			<label class="box-close" for="acc-close"></label>
+			<div class="box-content">
+				<img src="{{ project.image }}" style="float: right; max-height: 200px; max-width: 50%;" alt="{{ project.name }} Logo">
+				{{ project.content }}
+			</div>
+		</section>
+		{% endfor %}
 
-	<h3>Box!t</h3>
-	<p><img src="/uploads/projects/box-it.png" alt="Box!t Logo"></p>
+		<input type="radio" name="accordion" id="acc-close" />
+	</nav>
 
-	<h3>The Nest</h3>
-	<p><img src="/uploads/projects/nest.png" alt="Nest Logo"></p>
+	<p>More projects to come soon...</p>
 
 </div>
