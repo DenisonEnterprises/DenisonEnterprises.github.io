@@ -1,6 +1,6 @@
 ---
 name: Dana Randall
-image: "/uploads/people/sam-demaree.jpg"
+image: "/uploads/people/dana-randall.jpg"
 title: Marketing
 class: 2021
 ---
