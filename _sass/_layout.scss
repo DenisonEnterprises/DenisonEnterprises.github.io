@@ -226,7 +226,7 @@ section {
 		top: 0;
 		left: 0;
 		width: 100%;
-		background-color: #3e3f46;
+		background-color: rgba(201, 32, 9, .75); // color of box behind meet the team pics, last param is opacity
 
 		img {
 			transform: translateY(30%);
@@ -261,8 +261,8 @@ section {
 		margin-top: -70px;
 		margin-bottom: 70px;
 		font-size: 7vw;
-		color: #ddd;
-		opacity: 0.25;
+		color: #c92009;
+		opacity: 0.12;
 
 		@media (max-width: $mobile-break) {
 			font-size: 16vw;
@@ -321,7 +321,7 @@ footer {
 			}
 
 			&:hover svg {
-				fill: #73a9c9;
+				fill: #c92009; //hover color of non-text in links
 			}
 		}
 	}

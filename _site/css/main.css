@@ -73,7 +73,7 @@ a {
   transition: color 0.2s ease;
   text-decoration: none; }
   a:hover {
-    color: #73a9c9; }
+    color: #c92009; }
 
 body {
   margin: 0;
@@ -243,7 +243,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #3e3f46; }
+    background-color: rgba(201, 32, 9, 0.75); }
     .staff .staff-image img {
       transform: translateY(30%);
       border-radius: 50%;
@@ -269,8 +269,8 @@ section {
     margin-top: -70px;
     margin-bottom: 70px;
     font-size: 7vw;
-    color: #ddd;
-    opacity: 0.25; }
+    color: #c92009;
+    opacity: 0.12; }
     @media (max-width: 700px) {
       .staff .member-class {
         font-size: 16vw; } }
@@ -310,7 +310,7 @@ footer {
       width: 22px;
       height: 22px; }
     .footer-links li a:hover svg {
-      fill: #73a9c9; }
+      fill: #c92009; }
 
 .testimonials {
   font-size: 1.8rem;
