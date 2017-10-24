@@ -28,7 +28,7 @@ iframe {
 header {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: calc(50%) 220px;
+	background-position: calc(50% + 118px) 240px;
 	height: 420px;
 	box-sizing: border-box;
 
@@ -42,7 +42,7 @@ header {
 
 		&.main-hero {
 			height: 80vh;
-			background-position: calc(50% - 350px) calc(100% + 20px);
+			background-position: calc(50% - 250px) calc(100% + 20px);
 		}
 
 		.container {
