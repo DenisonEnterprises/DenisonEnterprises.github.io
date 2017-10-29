@@ -226,7 +226,7 @@ section {
 		top: 0;
 		left: 0;
 		width: 100%;
-		background-color: rgba(201, 32, 9, 1); // color of box behind meet the team pics, last param is opacity
+		background-color: rgba(201, 32, 9, 0.7); // color of box behind meet the team pics, last param is opacity
 
 		img {
 			transform: translateY(30%);
@@ -262,7 +262,7 @@ section {
 		margin-bottom: 70px;
 		font-size: 7vw;
 		color: #c92009;
-		opacity: 0.12;
+		opacity: 0.05;
 
 		@media (max-width: $mobile-break) {
 			font-size: 16vw;
