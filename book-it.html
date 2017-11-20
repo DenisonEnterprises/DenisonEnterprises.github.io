@@ -18,7 +18,10 @@ navigation_order: 2
                 <a href="{{ textbook.link }}">
     				<img src="{{ textbook.image }}" alt="">
     	        </a>
-                <p> {{ textbook.name }} <br> {{ textbook.author }} <br> Editions: {{ textbook.editions }}</p>
+                <p> {{ textbook.name }} <br>
+                    <font size="4"> {{ textbook.author }} </font> <br>
+                    <font size="4"> Editions: {{ textbook.editions }} </font>
+                </p>
     		</li>
     	{% endfor %}
     </ul>
