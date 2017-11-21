@@ -11,86 +11,18 @@ navigation_order: 2
     <hr style="margin-bottom: 20px;" />
     <p>The following books will be accepted by the Book!t program:</p>
     <hr style="margin-bottom: 30px;" />
-    <div class="textbook-list">
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0-321-99247-5.jpg" alt="">
-            <p>SQL Queries for Mere Mortals</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0-538-45306-6.jpg" alt="">
-            <p>Principles of Macroeconomics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0-538-74695-3.jpg" alt="">
-            <p>Financial Accounting</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1-118-95576-5.jpg" alt="">
-            <p>International Economics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1-259-91572-7.jpg" alt="">
-            <p>Microeconomics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1-4641-6752-2.jpg" alt="">
-            <p>Psychology</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1-4822-5414-3.jpg" alt="">
-            <p>Discovering Computer Science</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0073518992.jpg" alt="">
-            <p>Principles of Macroeconomics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0132991292.jpg" alt="">
-            <p>The Economic Way of Thinking</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0133454840.jpg" alt="">
-            <p>Programming Abstractions in C++</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/macro.jpg" alt="">
-            <p>Macroeconomics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0321743671.jpg" alt="">
-            <p>Biological Science</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0321976499.jpg" alt="">
-            <p>Biological Science</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0534423827.jpg" alt="">
-            <p>Brief Applied Calculus</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-0716771616.jpg" alt="">
-            <p>Macroeconomics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1118177938.jpg" alt="">
-            <p>International Economics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1118956670.jpg" alt="">
-            <p>Statistical Investigations</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/978-1464143847.jpg" alt="">
-            <p>Economics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/9781943450039.jpg" alt="">
-            <p>OpenIntro Statistics</p>
-        </div>
-        <div class="textbook">
-            <img src="/uploads/textbooks/9781944325008.jpg" alt="">
-            <p>Active Calculus</p>
-        </div>
-    </div>
+
+    <ul class="textbook-list">
+    	{% for textbook in site.bookit_books %}
+    		<li class="textbook">
+                <a href="{{ textbook.link }}">
+    				<img src="{{ textbook.image }}" alt="">
+    	        </a>
+                <p> {{ textbook.name }} <br>
+                    <font size="4"> {{ textbook.author }} </font> <br>
+                    <font size="4"> Editions: {{ textbook.editions }} </font>
+                </p>
+    		</li>
+    	{% endfor %}
+    </ul>
 </div>
