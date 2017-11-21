@@ -34,6 +34,7 @@ paginate_path: "/blog/:num/"
 collections:
   - "staff_members"
   - "projects"
+  - "bookit_books"
 
 defaults:
   -

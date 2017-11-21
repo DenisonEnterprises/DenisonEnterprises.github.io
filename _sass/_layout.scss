@@ -33,19 +33,38 @@ body {
 	}
 }
 
-.textbook-list .textbook img {
-	width: 100px;
-	height: 100%;
-	display: block;
-}
+// .textbook-list .textbook img {
+// 	width: 100px;
+// 	height: 100%;
+// 	display: block;
+// }
 
-.textbook-list .textbook {
-	padding: 5px 0;
-	display: flex;
+.textbook-list {
 
-	p {
-		margin: 0;
-		margin-left: 25px;
+	// .textbook img{
+	// 	width: 100px;
+	// 	height: 100%;
+	// 	display: block;
+	// }
+	.textbook {
+		padding: 10px 0;
+		display: flex;
+
+		p {
+			margin: 0;
+			margin-left: 25px;
+		}
+
+		img {
+			width: 100px;
+			height: 100%;
+			display: block;
+
+		}
+
+		img:hover {
+			-webkit-filter: brightness(75%);
+		}
 	}
 }
 

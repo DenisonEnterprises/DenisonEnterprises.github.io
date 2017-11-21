@@ -105,17 +105,18 @@ body {
     .discover-text {
       transform: translate(-50%, -100%); } }
 
-.textbook-list .textbook img {
-  width: 100px;
-  height: 100%;
-  display: block; }
-
 .textbook-list .textbook {
-  padding: 5px 0;
+  padding: 10px 0;
   display: flex; }
   .textbook-list .textbook p {
     margin: 0;
     margin-left: 25px; }
+  .textbook-list .textbook img {
+    width: 100px;
+    height: 100%;
+    display: block; }
+  .textbook-list .textbook img:hover {
+    -webkit-filter: brightness(75%); }
 
 .box, .staff, .testimonial-message, .post-comments, .post-summary {
   background-color: #fefefe;
