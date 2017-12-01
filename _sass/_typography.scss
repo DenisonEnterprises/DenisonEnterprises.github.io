@@ -58,6 +58,12 @@ h1 {
 	}
 }
 
+.da-logo {
+	@media (max-width: $mobile-break) {
+		font-size: 10vw;
+	}
+}
+
 h2 {
 	font-size: 3.6rem;
 }
