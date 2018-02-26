@@ -25,8 +25,8 @@ social:
 
 external_nav_links:
     -
-        link: "https://denison-enterprises.myshopify.com/"
-        text: "Shop"
+        link: "/box-it"
+        text: "Box!t"
 
 paginate: 10
 paginate_path: "/blog/:num/"
