@@ -1,6 +1,6 @@
 ---
 name: Dana Randall
 image: "/uploads/people/dana-randall.jpg"
-title: Marketing
+title: VP Marketing
 class: 2021
 ---

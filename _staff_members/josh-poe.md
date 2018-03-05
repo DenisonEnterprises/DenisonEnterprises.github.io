@@ -1,7 +1,7 @@
 ---
 name: Josh Poe
 image: "/uploads/people/josh-poe.jpg"
-title: Innovation
+title: VP Innovation
 class: 2021
 ---
 
