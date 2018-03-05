@@ -1,6 +1,6 @@
 ---
 name: Ben Liepert
 image: "/uploads/people/ben-liepert.jpg"
-title: Development
+title: VP Development
 class: 2019
 ---

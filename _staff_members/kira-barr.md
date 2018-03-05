@@ -1,7 +1,7 @@
 ---
 name: Kira Barr
 image: "/uploads/people/kira-barr.jpg"
-title: Marketing
+title: VP Finance
 class: 2021
 ---
 
