@@ -18,14 +18,14 @@ author:
 social:
   name: Denison Enterprises
   links:
-    - https://shop.denisonenterprises.com/
+    - https://denison.wufoo.com/forms/mzd7tqg02nhlq2
 
 # -----
 # Build
 
 external_nav_links:
     -
-        link: "/box-it"
+        link: "https://denison.wufoo.com/forms/mzd7tqg02nhlq2"
         text: "Box!t"
 
 paginate: 10
