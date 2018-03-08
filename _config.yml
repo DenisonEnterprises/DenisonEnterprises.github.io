@@ -23,10 +23,10 @@ social:
 # -----
 # Build
 
-external_nav_links:
-    -
-        link: "https://denison.wufoo.com/forms/mzd7tqg02nhlq2"
-        text: "Box!t"
+# external_nav_links:
+#     -
+#         link: "https://denison.wufoo.com/forms/mzd7tqg02nhlq2"
+#         text: "Box!t"
 
 paginate: 10
 paginate_path: "/blog/:num/"
