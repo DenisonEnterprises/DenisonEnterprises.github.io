@@ -8,6 +8,8 @@
       link: /projects/
     - name: Consulting
       link: /consulting/
+      name: BoxIt
+      link: /box-it/
 - title: Social
   links:
     - name: Facebook
