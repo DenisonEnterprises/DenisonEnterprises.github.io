@@ -1,7 +1,7 @@
 ---
 name: Alex Hughes
 image: "/uploads/people/alex-hughes.jpg"
-title: Member
+title: President
 class: 2021
 ---
 

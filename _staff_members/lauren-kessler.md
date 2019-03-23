@@ -1,8 +1,7 @@
 ---
 name: Lauren Kessler
 image: "/uploads/people/lauren-kessler.jpg"
-title: Member
+title: VP Marketing
 class: 2021
 ---
 
-Member

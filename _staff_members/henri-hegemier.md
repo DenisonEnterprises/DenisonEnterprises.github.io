@@ -1,8 +1,8 @@
 ---
 name: Henri Hegemier
 image: "/uploads/people/henri-hegemier.jpeg"
-title: Member
+title: VP Development
 class: 2021
 ---
 
-Member
+

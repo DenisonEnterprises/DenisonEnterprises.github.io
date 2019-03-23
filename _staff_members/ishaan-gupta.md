@@ -1,6 +1,6 @@
 ---
 name: Ishaan Gupta
 image: "/uploads/people/ishaan-gupta.jpg"
-title: VP Development
+title: Member
 class: 2020
 ---

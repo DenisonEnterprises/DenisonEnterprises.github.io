@@ -1,8 +1,7 @@
 ---
 name: Kira Barr
 image: "/uploads/people/kira-barr.jpg"
-title: VP Finance
+title: Member
 class: 2021
 ---
 
-Sam manages money.

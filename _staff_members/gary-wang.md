@@ -1,6 +1,6 @@
 ---
 name: Gary Wang
 image: "/uploads/people/wang_g1.jpg"
-title: Member
+title: VP Finance
 class: 2021
 ---
